@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 6756ed7b80223ac4e8f026ce27541de4, type: 3}
-  title: 'Explorer: 3D Game Kit Lite'
+  icon: {fileID: 2800000, guid: cfa6d60f1f958ba46a105ca98716c259, type: 3}
+  title: Particle Pack
   sections:
-  - heading: What is a Gamekit?
-    text: 'This game kit empowers you to create your own 3D platformer game without
-      writing any code. '
+  - heading: What is the Particle Pack?
+    text: The Particle Pack is a collection of example effects that you can easily
+      add to your own game or examine to learn more about Unity's Shuriken particle
+      system.  Explore the example first-person scene using W,A,S, and D, and your
+      mouse to look around. Stop to view a particle system and more detailed information
+      on each effect will appear on-screen.
     linkText: 
     url: 
   - heading: How do I use it?
-    text: We've written a detailed manual that explores all the available prefabs
-      and components that make up the mechanics in this kit. You can find the manual
-      on our Learn site.
-    linkText: Read the manual
-    url: https://learn.unity.com/project/3d-game-kit-lite
-  - heading: Got feedback?
-    text: 'Let us know what you think or ask any questions you might have on our FORUM. '
-    linkText: Forum Thread
-    url: https://forum.unity.com/threads/3d-game-kit-official-thread.530684/
+    text: To use these examples in your own projects, simply select the folder of
+      effects and use the 'Export Package' command from the 'Assets' menu on the
+      top bar. Depending on the effect, you may need to add the 'Shared' folder or
+      remove some unnecessary scripts from the Export window. Once your effect has
+      succesfully exported, import this package into your own projects using the
+      'Import Package' - 'Custom Package' option from the 'Assets' menu.
+    linkText: 
+    url: 
   loadedLayout: 1
